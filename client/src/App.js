@@ -22,13 +22,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <div>
-      <h1>Soleyman</h1>
-      </div>
         <h1>{this.state.flower.name}</h1>
         <p>{this.state.flower.colour}</p>
       </div>
-
     );
   }
 }
